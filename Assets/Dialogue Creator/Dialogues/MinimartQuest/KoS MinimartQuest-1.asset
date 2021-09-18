@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc0e0796789f24eecacf32f18c6e8f9f, type: 3}
+  m_Name: KoS MinimartQuest-1
+  m_EditorClassIdentifier: 
+  DialogueInfo:
+  - character: {fileID: 0}
+    myText: Why if it isn't Xanthe!
+  - character: {fileID: 0}
+    myText: Working hard as always?
+  - character: {fileID: 0}
+    myText: You know the Minimart at the south of the Spade Kingdom rrecently started
+      selling red ink potions?
+  - character: {fileID: 0}
+    myText: 'Maybe you should get some too! '
+  - character: {fileID: 0}
+    myText: I hear it's great for keeping you in tip top shape!

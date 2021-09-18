@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Misc/MainMenu.unity
+    guid: 20b71428daf5d4c668315e9fca6c4b2e
+  - enabled: 1
+    path: Assets/Scenes/KingdomOfSpades/MCHouse/MCHouseInterior.unity
+    guid: 27e2f5503e4f44032a3d5ddfea0a67b3
+  - enabled: 1
+    path: Assets/Scenes/Misc/SampleScene.unity
+    guid: 848e14c7aaed045368e287b0dd706b65
+  - enabled: 1
+    path: Assets/Scenes/KingdomOfSpades/KingdomOfSpadesTownCenter.unity
+    guid: ca2a75ccff2134f819f356d7ae975732
+  - enabled: 1
+    path: Assets/Scenes/KingdomOfSpades/KingdomOfSpadesEastSide.unity
+    guid: 201bb7609691a490d96dd7d3adcd4535
+  - enabled: 1
+    path: Assets/Scenes/Misc/Tester3.unity
+    guid: dab5a45e37c5c44148ce27b5bd182e9c
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Midzone/Pathways/ForestPath_SpadeToHeart.unity
+    guid: ea63d1252fd3742158e5007d7f745589
+  - enabled: 1
+    path: Assets/Scenes/KingdomOfHearts/KingdomOfHeartArea1.unity
+    guid: a75e68259441f479bbe33e17d6113022
+  - enabled: 1
+    path: Assets/Scenes/KingdomOfHearts/KingdomOfHeartsArea2.unity
+    guid: e8c58950efddd4e459f80b9431fc9e04
+  - enabled: 1
+    path: Assets/Scenes/KingdomOfHearts/KingdomOfHeartsCastleDoor.unity
+    guid: 3fc81b70161e7494387789602d79dca0
+  - enabled: 1
+    path: Assets/Scenes/KingdomOfHearts/KingdomOfHeartsCastleInterior.unity
+    guid: 6ca1f46f680ec4f4086c9bc71583c1b3
+  - enabled: 1
+    path: Assets/Scenes/Midzone/Pathways/Path_HeartToDiamond.unity
+    guid: 41942df01012f4f78970c93a99a60fb9
+  - enabled: 1
+    path: Assets/Scenes/KingdomOfDiamonds/KingdomOfDiamondsArea1.unity
+    guid: 79113e069291f6143890c3e5c30417ca
+  - enabled: 1
+    path: Assets/Scenes/KingdomOfDiamonds/KingdomOfDiamondsCastleInterior.unity
+    guid: 2089003db9cfe5a4aaf9f702a7029442
+  - enabled: 1
+    path: Assets/Scenes/Midzone/Pathways/LakePath_DiamondToClub.unity
+    guid: 3bf41dd91c57149c9ba34adc3b692259
+  - enabled: 1
+    path: Assets/Scenes/KingdomOfClubs/KingdomOfClubsArea1.unity
+    guid: b8a1065edccdaf8429d684892636fc69
+  - enabled: 1
+    path: Assets/Scenes/KingdomOfClubs/KingdomOfClubsArea2.unity
+    guid: c69e2d367bec30742ac42c2fb68dfc36
+  - enabled: 1
+    path: Assets/Scenes/KingdomOfClubs/KingdomOfClubsArea3.unity
+    guid: 7d0f85bd78d7c7e49994186542ac719d
+  - enabled: 1
+    path: Assets/Scenes/KingdomOfClubs/KingdomOfClubsArea4.unity
+    guid: d4bed47433b02f645aa7fb2242405c1a
+  - enabled: 1
+    path: Assets/Scenes/KingdomOfClubs/KingdomOfClubsArea5.unity
+    guid: e661b6655cd55df478289f35f78e353c
+  - enabled: 1
+    path: Assets/Scenes/KingdomOfClubs/KingdomOfClubsArea6.unity
+    guid: 107d04e6f44462a4c87302a58875cbb3
+  - enabled: 1
+    path: Assets/Scenes/KingdomOfClubs/KingdomOfClubsArea7.unity
+    guid: 6848b1c70c00b1d42ada6158f49df8d3
+  - enabled: 1
+    path: Assets/Scenes/KingdomOfClubs/KingdomOfClubsArea8.unity
+    guid: 80b49449869ae064f831fe98e0a66320
+  - enabled: 1
+    path: Assets/Scenes/KingdomOfClubs/KingdomOfClubsArea9.unity
+    guid: 815560560a0dbb548822fe2a068b5165
+  - enabled: 1
+    path: Assets/Scenes/KingdomOfClubs/KingdomOfClubsRooftop.unity
+    guid: f691c34a99b719847b1255b3a72b053a
+  - enabled: 1
+    path: Assets/Scenes/Midzone/Pathways/DesertPath_ClubToSpade.unity
+    guid: 94be7d06b37c9447eb4cebaacdc409c3
+  - enabled: 1
+    path: Assets/Scenes/Midzone/Altar.unity
+    guid: b33b31852051543eea9f9695dad95432
+  - enabled: 1
+    path: Assets/Scenes/Midzone/IsleTop.unity
+    guid: 5837666e1dcdb459c8e6fba2c15921c3
+  - enabled: 1
+    path: Assets/Scenes/Midzone/UnityMarket.unity
+    guid: 2d53ffb851a4f4ab39208c8d3c82a36c
+  m_configObjects: {}

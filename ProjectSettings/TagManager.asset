@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - DialogueBox
+  - NPCDialogue
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Blackout
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 445411987
+    locked: 0
+  - name: Background Sprites
+    uniqueID: 96039419
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Animation
+    uniqueID: 76203287
+    locked: 0
+  - name: GameObjects
+    uniqueID: 193210557
+    locked: 0
+  - name: Player
+    uniqueID: 4188576759
+    locked: 0
+  - name: Shop
+    uniqueID: 546912793
+    locked: 0

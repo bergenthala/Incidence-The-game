@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc0e0796789f24eecacf32f18c6e8f9f, type: 3}
+  m_Name: King - 2
+  m_EditorClassIdentifier: 
+  DialogueInfo:
+  - character: {fileID: 0}
+    myText: Why if it isn't Xanthe my trusted Knight! I heard you have become able
+      to harness the power of all 4 elements? Is this true?
+  - character: {fileID: 0}
+    myText: Yes King
+  - character: {fileID: 0}
+    myText: 'Good Good, this joyous news for us all! By my decree I shall have you
+      promoted to my Vassal at once! '
+  - character: {fileID: 0}
+    myText: You must travel the world to harness the power of all the elements and
+      bring great honor to our Kingdom.
+  - character: {fileID: 0}
+    myText: Yes King
+  - character: {fileID: 0}
+    myText: 'To start your journey I have a task for you. I have recently received
+      unsettling news of unrest and discord within the Hearts Kingdom. '
+  - character: {fileID: 0}
+    myText: I have tried contacting the Queen but to no avail. Could you please deliver
+      this message to her for me and find out what is going on?
+  - character: {fileID: 0}
+    myText: Yes King
+  - character: {fileID: 0}
+    myText: Very well I shall no longer borrow you and wish you success in your journey.
+      Remember to stay true to who you are as I fear this may only be just the beginning.

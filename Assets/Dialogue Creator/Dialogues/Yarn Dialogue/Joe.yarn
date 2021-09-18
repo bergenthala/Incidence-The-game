@@ -1,0 +1,23 @@
+title: Joe
+tags: 
+colorID: 0
+position: 69,80
+---
+Joe: Hi there!
+[[Hi |Exit]]
+[[Bye |Now]]
+===
+title: Exit
+tags: 
+colorID: 0
+position: 51,339
+---
+Test complete1
+===
+title: Now
+tags: 
+colorID: 0
+position: 389,305
+---
+Test compelte22
+===

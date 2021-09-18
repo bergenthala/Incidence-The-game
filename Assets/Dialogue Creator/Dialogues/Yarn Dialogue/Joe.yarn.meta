@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 66e563b9ca715407c93cfcd7b465f380
+ScriptedImporter:
+  fileIDToRecycleName:
+    4900000: Strings
+    11400000: Program
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Joe-Start-0
+  - Joe-Start-1
+  - Joe-Start-2
+  - Joe-Exit-3
+  - Joe-Now-4
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

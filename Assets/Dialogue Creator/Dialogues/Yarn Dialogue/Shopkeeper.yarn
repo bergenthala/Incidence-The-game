@@ -1,0 +1,60 @@
+title: Shopkeeper
+tags: 
+position: 254.37228393554688,-373.3362731933594
+---
+Shopkeeper: Hi there! What can I do for you today?
+[[Ask about attribute test |Shopkeeper.attribute]]
+[[Buy something |Shopkeep.Buy]]
+[[Sell something |Shopkeeper.Sell]]
+[[I don't need anything right now |Shopkeeper.Exit]]
+===
+title: Shopkeep.Buy
+tags: 
+colorID: 0
+position: 85,53
+---
+Shopkeeper: These are my wares, need anything?
+===
+title: Shopkeeper.attribute
+tags: 
+position: -207,44.46469211578369
+colorID: 1
+---
+Shopkeeper: Why if it isn't {$charactername}! What brings you here today?
+-> I need to get an attribute stone
+Shopkeeper: An attribute test? I hate to break it to you, but you are way over 5 years old and I theres no way your element is changing from fire. 
+[[Just give me the god damn stone |Shopkeeper.Mad]] 
+[[Can I please just get the stone? |Shopkeeper.Money]]
+[[Never mind |Shopkeeper]]
+===
+title: Shopkeeper.Sell
+tags: 
+colorID: 0
+position: 392,46
+---
+Shopkeeper: What do you have for me today?
+===
+title: Shopkeeper.Exit
+tags: 
+colorID: 0
+position: 639,42
+---
+Shopkeeper: See you soon!
+===
+title: Shopkeeper.Mad
+tags: 
+colorID: 5
+position: -545,-113
+---
+Well someone is being rude today! Take your stone! That'll be 50G.
+-> Pay up
+===
+title: Shopkeeper.Money
+tags: 
+colorID: 2
+position: -533,140
+---
+Shopkeeper: Well alright then. Money is money after all. That'll be 35G.
+-> Pay up
+===
+

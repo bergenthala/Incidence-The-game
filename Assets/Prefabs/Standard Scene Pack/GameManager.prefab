@@ -1,0 +1,481 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1424785210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1424785211}
+  - component: {fileID: 1424785212}
+  m_Layer: 0
+  m_Name: Player 1 Info
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1424785211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424785210}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5485827859036575352}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1424785212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424785210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57601017624124fe8af398753bb2116a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Xanthos
+  playerLevel: 1
+  currentEXP: 0
+  currentMoney: 0
+  EXPToNextLevel: 
+  maxLevel: 100
+  baseEXP: 500
+  currentHP: 15
+  MaxHP: 15
+  currentMP: 3
+  MaxMP: 3
+  MPLevelBonus: 00000000010000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000000000000100000002000000000000000000000000000000010000000100000000000000010000000000000001000000000000000000000000000000000000000100000000000000000000000000000000000000010000000200000000000000000000000000000002000000000000000000000000000000000000000200000000000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  attackPower: 0
+  defense: 5
+  speed: 0
+  attackTrack: 0
+  defenseTrack: 0
+  speedTrack: 0
+  weaponPower: 0
+  armorDefense: 0
+  equippedWeapon: 
+  equippedArmor: 
+  characterImage: {fileID: 21300000, guid: 0388f46636123450893d994f4ad7e69f, type: 3}
+--- !u!1 &1228714032014377457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7759534044231987128}
+  - component: {fileID: 229171440389859688}
+  m_Layer: 0
+  m_Name: 'NPC 2: The Leader of the RugRats'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7759534044231987128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228714032014377457}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5485827859036575352}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &229171440389859688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228714032014377457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57601017624124fe8af398753bb2116a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Timmy
+  playerLevel: 25
+  currentEXP: 0
+  currentMoney: 100
+  EXPToNextLevel: 
+  maxLevel: 100
+  baseEXP: 500
+  currentHP: 180
+  MaxHP: 999
+  currentMP: 10
+  MaxMP: 999
+  MPLevelBonus: 00000000010000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000000000000100000002000000000000000000000000000000010000000100000000000000010000000000000001000000000000000000000000000000000000000100000000000000000000000000000000000000010000000200000000000000000000000000000002000000000000000000000000000000000000000200000000000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  attackPower: 0
+  defense: 60
+  speed: 0
+  attackTrack: 0
+  defenseTrack: 0
+  speedTrack: 0
+  weaponPower: 0
+  armorDefense: 0
+  equippedWeapon: 
+  equippedArmor: 
+  characterImage: {fileID: 0}
+--- !u!1 &4209752868557261658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3869863519863667353}
+  - component: {fileID: 8421229763649319232}
+  m_Layer: 0
+  m_Name: 'NPC 3: The Virtuos Monk'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3869863519863667353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4209752868557261658}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5485827859036575352}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8421229763649319232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4209752868557261658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57601017624124fe8af398753bb2116a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Monk
+  playerLevel: 50
+  currentEXP: 0
+  currentMoney: 100
+  EXPToNextLevel: 
+  maxLevel: 100
+  baseEXP: 500
+  currentHP: 300
+  MaxHP: 999
+  currentMP: 300
+  MaxMP: 999
+  MPLevelBonus: 00000000010000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000000000000100000002000000000000000000000000000000010000000100000000000000010000000000000001000000000000000000000000000000000000000100000000000000000000000000000000000000010000000200000000000000000000000000000002000000000000000000000000000000000000000200000000000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  attackPower: 0
+  defense: 100
+  speed: 0
+  attackTrack: 0
+  defenseTrack: 0
+  speedTrack: 0
+  weaponPower: 0
+  armorDefense: 0
+  equippedWeapon: 
+  equippedArmor: 
+  characterImage: {fileID: 0}
+--- !u!1 &7687844165355284647
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5485827859036575352}
+  - component: {fileID: 802480308019638469}
+  - component: {fileID: 1006713863979542735}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5485827859036575352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7687844165355284647}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.09828, y: 6.0757732, z: -149.97922}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1424785211}
+  - {fileID: 4174961142247688292}
+  - {fileID: 7759534044231987128}
+  - {fileID: 3869863519863667353}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &802480308019638469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7687844165355284647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e2a0f7a4c044f8aba4b1581d32b7b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerstats:
+  - {fileID: 1424785212}
+  gameMenuOpen: 0
+  dialogueActive: 0
+  fadingBetweenAreas: 0
+  canSave: 1
+  firstSave: 0
+  overwriteBox: {fileID: 0}
+  itemsHeld:
+  - 
+  - InkPotion
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  numberOfItems: 000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  referenceItems:
+  - {fileID: 5919501454887719435, guid: 1faccdc1ce4f541b5b018f00a106c0f3, type: 3}
+  shouldTransition: 0
+  playerLevel: 0
+  currentEXP: 0
+  currentHP: 0
+  currentMP: 0
+  currentMoney: 0
+  maxHP: 0
+  maxMP: 0
+  player: {fileID: 1424785210}
+  npc1: {fileID: 8682561688992792981}
+  npc2: {fileID: 1228714032014377457}
+  npc3: {fileID: 4209752868557261658}
+--- !u!114 &1006713863979542735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7687844165355284647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4be6a4579b8f642ae8d7e314863c9070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questMarkerNames:
+  - 
+  - Obtain the Card Holder
+  - Go See the King
+  - Scout the Kingdom Borders
+  - Report To the King
+  - Reach the Heart Kingdom
+  - What happened to the Heart Kingdom?
+  - Meet the Water Princess
+  - Find the 3 Keys
+  - Save the Heart Kingdom
+  - Reach the Diamond Kingdom
+  - Investigate the Unknown Sound
+  - Meet the Leader of the Rugrats
+  - Infiltrate the Palace
+  - Save the Diamond Kingdom
+  - Guidance of the Harmonius Lake
+  - Reach the Club Kingdom
+  - Talk to Elder Zozo
+  - Pass the trials and reach the rooftop
+  - Investigate the missing Bell
+  - Help Taro retrieve his artifact
+  - Investigate the sand temple
+  - Return to the Club Kingdom
+  - Save the Club Kingdom
+  - Return to the Spade Kingdom
+  - Save the Spade Kingdom
+  - Go to the mysterious Alter
+  - Defeat the Dark Joker
+  - Defeat the Mega Joker
+  - Bring the land back into Unity
+  questMarkerDescriptions:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  questMarkerComplete: 000000000000000000000000000000000000000000000000000000000000
+  quests:
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  - title: 
+  recievedQuest: 1
+--- !u!1 &8682561688992792981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4174961142247688292}
+  - component: {fileID: 8608244339532111756}
+  m_Layer: 0
+  m_Name: 'NPC 1: The Water Princess'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4174961142247688292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8682561688992792981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5485827859036575352}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8608244339532111756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8682561688992792981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57601017624124fe8af398753bb2116a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Nilvenia
+  playerLevel: 15
+  currentEXP: 0
+  currentMoney: 10000
+  EXPToNextLevel: 
+  maxLevel: 100
+  baseEXP: 500
+  currentHP: 46
+  MaxHP: 999
+  currentMP: 70
+  MaxMP: 999
+  MPLevelBonus: 00000000010000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000000000000100000002000000000000000000000000000000010000000100000000000000010000000000000001000000000000000000000000000000000000000100000000000000000000000000000000000000010000000200000000000000000000000000000002000000000000000000000000000000000000000200000000000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  attackPower: 0
+  defense: 40
+  speed: 0
+  attackTrack: 0
+  defenseTrack: 0
+  speedTrack: 0
+  weaponPower: 0
+  armorDefense: 0
+  equippedWeapon: 
+  equippedArmor: 
+  characterImage: {fileID: 0}

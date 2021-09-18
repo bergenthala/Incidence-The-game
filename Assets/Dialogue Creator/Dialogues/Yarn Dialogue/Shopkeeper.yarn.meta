@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: a8df351083ee54235ab71ab04c370448
+ScriptedImporter:
+  fileIDToRecycleName:
+    4900000: Strings
+    11400000: Program
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Shopkeeper-Start-0
+  - Shopkeeper-Start-1
+  - Shopkeeper-Start-2
+  - Shopkeeper-Start-3
+  - Shopkeeper-Start-4
+  - Shopkeeper-Shopkeep.Buy-5
+  - Shopkeeper-Shopkeeper.attribute-6
+  - Shopkeeper-Shopkeeper.attribute-7
+  - Shopkeeper-Shopkeeper.attribute-8
+  - Shopkeeper-Shopkeeper.attribute-9
+  - Shopkeeper-Shopkeeper.attribute-10
+  - Shopkeeper-Shopkeeper.attribute-11
+  - Shopkeeper-Shopkeeper.Sell-12
+  - Shopkeeper-Shopkeeper.Exit-13
+  - Shopkeeper-Shopkeeper.Mad-14
+  - Shopkeeper-Shopkeeper.Mad-15
+  - Shopkeeper-Shopkeeper.Money-16
+  - Shopkeeper-Shopkeeper.Money-17
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 4900000, guid: a8df351083ee54235ab71ab04c370448, type: 3}
+  localizations: []
